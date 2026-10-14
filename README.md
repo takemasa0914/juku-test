@@ -39,7 +39,9 @@ npm start
 
 ## GitHub / Vercel
 
-ソース管理：`takemasa0914/juku-test`。機密情報・認証情報・実際の回答データはコミットしないでください。
+公開体験版：https://juku-test.vercel.app/
+
+ソース管理：[takemasa0914/juku-test](https://github.com/takemasa0914/juku-test)。機密情報・認証情報・実際の回答データはコミットしないでください。
 
 1. GitHubに空のリポジトリを作り、認証済みのGit環境からソースをpush。
 2. VercelでそのリポジトリをImport。FrameworkはNext.js、ビルドは`npm run build`、インストールは`npm ci`。
@@ -68,7 +70,9 @@ npm start
 
 21件のテスト（DOM上での回答・再開・親子双方許可・共有取消も含む）が通過。
 
-実Supabaseの認証・MFA・APIとDBの通し検証、ブラウザでの見た目・アクセシビリティ・スマートフォン実機検証は別途必要です。ビルド成功はそれらの代替ではありません。
+2026-10-14、Vercelへの公開と、実ブラウザで6問への回答→採点→レポート表示を確認しました。
+
+実Supabaseの認証・MFA・APIとDBの通し検証、アクセシビリティ・スマートフォン実機検証は別途必要です。ビルド成功はそれらの代替ではありません。
 
 ## 構成
 
